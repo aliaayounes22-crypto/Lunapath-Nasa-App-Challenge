@@ -19,7 +19,7 @@ export default function Footer() {
           <div className="md:col-span-5 space-y-4">
             <div className="flex items-center gap-3">
               <img
-                src="/lunapath-logo.png"
+                src={`${import.meta.env.BASE_URL}lunapath-logo.png`}
                 alt="LunaPath Mission Logo"
                 className="w-12 h-12 object-contain logo-patch-enhanced"
               />

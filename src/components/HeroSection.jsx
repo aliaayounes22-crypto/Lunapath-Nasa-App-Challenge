@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo } from 'react'
 import { ChevronDown, Sun, Globe, Compass, Info, ArrowUpRight } from 'lucide-react'
 import { formatDays } from '../data/loader'
 import LunarGlobe3D from './visualizations/LunarGlobe3D'
@@ -32,23 +32,9 @@ export default function HeroSection({ selectedSite, selectedYear, landingSites, 
     []
   )
 
-  const handleMouseMove = (e) => {
-    if (window.innerWidth < 1024) return
-    const rect = e.currentTarget.getBoundingClientRect()
-    const x = ((e.clientX - rect.left) / rect.width - 0.5) * 12
-    const y = ((e.clientY - rect.top) / rect.height - 0.5) * -12
-    setTilt({ x, y })
-  }
-
-  const handleMouseLeave = () => {
-    setTilt({ x: 0, y: 0 })
-  }
-
   return (
     <section
       id="top"
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
       className="relative w-full min-h-[95vh] pt-28 pb-16 flex items-center justify-center overflow-hidden bg-gradient-to-b from-[#050816] via-[#070D1B] to-[#050816]"
     >
       {/* Background Star Field */}

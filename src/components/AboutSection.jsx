@@ -100,7 +100,7 @@ export default function AboutSection() {
       {/* Footer */}
       <footer className="border-t border-[#F5F7FA]/10 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#A8B0C0] font-mono">
         <div className="flex items-center gap-3">
-          <img src="/lunapath-logo.png" alt="LunaPath" className="h-10 w-auto object-contain logo-interactive" />
+          <img src={`${import.meta.env.BASE_URL}lunapath-logo.png`} alt="LunaPath" className="h-10 w-auto object-contain logo-interactive" />
           <span>LunaPath Moon Landing Planner · NASA Space Apps Challenge 2026</span>
         </div>
         <div className="flex items-center gap-1 text-[#A8B0C0]/60">

@@ -36,7 +36,7 @@ export default function Navbar() {
             {/* Commanding, Significantly Enlarged Mission Patch */}
             <div className="relative flex items-center justify-center">
               <img
-                src="/lunapath-logo.png"
+                src={`${import.meta.env.BASE_URL}lunapath-logo.png`}
                 alt="LunaPath NASA Space Apps 2026 Mission Patch"
                 className="h-18 sm:h-22 w-auto object-contain logo-patch-enhanced drop-shadow-xl"
                 loading="eager"
