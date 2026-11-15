@@ -1,4 +1,4 @@
-# 🚀 LunaPath — Moon Landing Planner
+#  LunaPath — Moon Landing Planner
 
 > **NASA Space Apps Challenge 2026**  
 > **Challenge Track:** Lunar Landing Site Navigator  
@@ -13,7 +13,7 @@
 
 ---
 
-## 🌒 Project Mission
+##  Project Mission 🌒
 
 **LunaPath** is an interactive, scientific decision-support prototype built for the **NASA Space Apps Challenge 2026**. It allows mission planners, scientists, educators, and space enthusiasts to explore, evaluate, and compare candidate landing sites near the Moon’s South Pole.
 
