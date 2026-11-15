@@ -1,0 +1,408 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-11-14",
+  "primary_source_id": "WUELLER2026",
+  "field_definitions": {
+    "max_consecutive_sun_days": "Longest unbroken run of days with the Sun visible at the site's pixel during that year's modeled midsummer.",
+    "max_consecutive_sun_and_earth_days": "Longest unbroken run of days with Sun AND Earth simultaneously visible. Always <= Sun-only value.",
+    "midsummer_length_days": "Calendar-day length of modeled midsummer window (inclusive)."
+  },
+  "global_notes": [
+    "Values are per-year MODELED MAXIMA, not predictions for any specific date or hour.",
+    "Published as whole days; derived from 12-hour model steps. Rounding rule not confirmed from retrieved text.",
+    "Do not interpolate or generate daily/hourly values from these summaries.",
+    "Raw per-pixel rasters are in Zenodo Illumination_Modeling.zip (GIS formats).",
+    "Per-site values might also be readable from the Zenodo Illumination_Modeling rasters using GIS. Raster contents were not inspected; verify against Table A2.",
+    "Table A2 row HW10 gives 0–7 combined-visibility days across 2025–2032, whereas narrative text claims HW04 and HW10 exceed 25 days. This is an unresolved internal inconsistency in the published paper; charts use Table A2."
+  ],
+  "site_level_notes": {
+    "HW10": "Table A2 values entered; paper narrative claims >25 days for HW10, contradicting the row. Requires author clarification.",
+    "SP11": "Table A2 confirms 17 days simultaneous Sun-and-Earth visibility in 2030 (18 days Sun-only)."
+  },
+  "records": [
+    {
+      "site_id": "SP11",
+      "year": 2025,
+      "midsummer_start": "2025-11-20",
+      "midsummer_end": "2025-12-21",
+      "midsummer_length_days": 32,
+      "max_consecutive_sun_days": 15,
+      "max_consecutive_sun_and_earth_days": 15,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "SP11",
+      "year": 2026,
+      "midsummer_start": "2026-11-06",
+      "midsummer_end": "2026-11-27",
+      "midsummer_length_days": 22,
+      "max_consecutive_sun_days": 18,
+      "max_consecutive_sun_and_earth_days": 18,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "SP11",
+      "year": 2027,
+      "midsummer_start": "2027-10-15",
+      "midsummer_end": "2027-11-14",
+      "midsummer_length_days": 31,
+      "max_consecutive_sun_days": 18,
+      "max_consecutive_sun_and_earth_days": 18,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "SP11",
+      "year": 2028,
+      "midsummer_start": "2028-09-27",
+      "midsummer_end": "2028-10-14",
+      "midsummer_length_days": 18,
+      "max_consecutive_sun_days": 7,
+      "max_consecutive_sun_and_earth_days": 7,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "SP11",
+      "year": 2029,
+      "midsummer_start": "2029-09-15",
+      "midsummer_end": "2029-10-02",
+      "midsummer_length_days": 18,
+      "max_consecutive_sun_days": 8,
+      "max_consecutive_sun_and_earth_days": 8,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "SP11",
+      "year": 2030,
+      "midsummer_start": "2030-08-19",
+      "midsummer_end": "2030-09-19",
+      "midsummer_length_days": 32,
+      "max_consecutive_sun_days": 18,
+      "max_consecutive_sun_and_earth_days": 17,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "SP11",
+      "year": 2031,
+      "midsummer_start": "2031-08-05",
+      "midsummer_end": "2031-08-26",
+      "midsummer_length_days": 22,
+      "max_consecutive_sun_days": 0,
+      "max_consecutive_sun_and_earth_days": 0,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "SP11",
+      "year": 2032,
+      "midsummer_start": "2032-07-13",
+      "midsummer_end": "2032-08-12",
+      "midsummer_length_days": 31,
+      "max_consecutive_sun_days": 10,
+      "max_consecutive_sun_and_earth_days": 10,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2025,
+      "midsummer_start": "2025-11-20",
+      "midsummer_end": "2025-12-21",
+      "midsummer_length_days": 32,
+      "max_consecutive_sun_days": 17,
+      "max_consecutive_sun_and_earth_days": 16,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2026,
+      "midsummer_start": "2026-11-06",
+      "midsummer_end": "2026-11-27",
+      "midsummer_length_days": 22,
+      "max_consecutive_sun_days": 17,
+      "max_consecutive_sun_and_earth_days": 17,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2027,
+      "midsummer_start": "2027-10-15",
+      "midsummer_end": "2027-11-14",
+      "midsummer_length_days": 31,
+      "max_consecutive_sun_days": 2,
+      "max_consecutive_sun_and_earth_days": 2,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2028,
+      "midsummer_start": "2028-09-27",
+      "midsummer_end": "2028-10-14",
+      "midsummer_length_days": 18,
+      "max_consecutive_sun_days": 9,
+      "max_consecutive_sun_and_earth_days": 9,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2029,
+      "midsummer_start": "2029-09-15",
+      "midsummer_end": "2029-10-02",
+      "midsummer_length_days": 18,
+      "max_consecutive_sun_days": 11,
+      "max_consecutive_sun_and_earth_days": 10,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2030,
+      "midsummer_start": "2030-08-19",
+      "midsummer_end": "2030-09-19",
+      "midsummer_length_days": 32,
+      "max_consecutive_sun_days": 16,
+      "max_consecutive_sun_and_earth_days": 16,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2031,
+      "midsummer_start": "2031-08-05",
+      "midsummer_end": "2031-08-26",
+      "midsummer_length_days": 22,
+      "max_consecutive_sun_days": 0,
+      "max_consecutive_sun_and_earth_days": 0,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "NR2_K2023",
+      "year": 2032,
+      "midsummer_start": "2032-07-13",
+      "midsummer_end": "2032-08-12",
+      "midsummer_length_days": 31,
+      "max_consecutive_sun_days": 12,
+      "max_consecutive_sun_and_earth_days": 12,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Verified from Table A2 row NR2_K2023."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2025,
+      "midsummer_start": "2025-11-20",
+      "midsummer_end": "2025-12-21",
+      "midsummer_length_days": 32,
+      "max_consecutive_sun_days": 3,
+      "max_consecutive_sun_and_earth_days": 3,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2026,
+      "midsummer_start": "2026-11-06",
+      "midsummer_end": "2026-11-27",
+      "midsummer_length_days": 22,
+      "max_consecutive_sun_days": 1,
+      "max_consecutive_sun_and_earth_days": 0,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2027,
+      "midsummer_start": "2027-10-15",
+      "midsummer_end": "2027-11-14",
+      "midsummer_length_days": 31,
+      "max_consecutive_sun_days": 1,
+      "max_consecutive_sun_and_earth_days": 0,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2028,
+      "midsummer_start": "2028-09-27",
+      "midsummer_end": "2028-10-14",
+      "midsummer_length_days": 18,
+      "max_consecutive_sun_days": 7,
+      "max_consecutive_sun_and_earth_days": 7,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2029,
+      "midsummer_start": "2029-09-15",
+      "midsummer_end": "2029-10-02",
+      "midsummer_length_days": 18,
+      "max_consecutive_sun_days": 1,
+      "max_consecutive_sun_and_earth_days": 1,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2030,
+      "midsummer_start": "2030-08-19",
+      "midsummer_end": "2030-09-19",
+      "midsummer_length_days": 32,
+      "max_consecutive_sun_days": 1,
+      "max_consecutive_sun_and_earth_days": 0,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2031,
+      "midsummer_start": "2031-08-05",
+      "midsummer_end": "2031-08-26",
+      "midsummer_length_days": 22,
+      "max_consecutive_sun_days": 4,
+      "max_consecutive_sun_and_earth_days": 3,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    },
+    {
+      "site_id": "HW10",
+      "year": 2032,
+      "midsummer_start": "2032-07-13",
+      "midsummer_end": "2032-08-12",
+      "midsummer_length_days": 31,
+      "max_consecutive_sun_days": 0,
+      "max_consecutive_sun_and_earth_days": 0,
+      "units": "days",
+      "source": {
+        "source_id": "WUELLER2026",
+        "dates_table": "Table 2",
+        "durations_table": "Table A2"
+      },
+      "data_quality_notes": "Transcribed from published Table A2, Wuellner/Wueller et al. (2026), DOI 10.1029/2025JE009434."
+    }
+  ]
+}

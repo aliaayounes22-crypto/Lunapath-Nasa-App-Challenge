@@ -1,0 +1,169 @@
+{
+  "schema_version": "1.0",
+  "generated": "2026-11-14",
+  "primary_source_id": "WUELLER2026",
+  "global_notes": [
+    "Candidate landing sites (CLS) are manually selected representatives and can be shifted within the suitable area (Wueller 2026, Section 3).",
+    "130 CLS were studied across 16 candidate regions.",
+    "Region boundary polygons were not found in the dataset description read. Zenodo Landing_Sites is described as holding candidate-site points and a raster of the area meeting HLS requirements; check the files before relying on region outlines.",
+    "CRS and longitude convention were not confirmed from retrieved text; do not reproject until verified.",
+    "Site IDs ending in K2023 (NR2_K2023, HW_K2023) appear in Table A1 alongside numbered sites. Whether they are among the representative sites counted in Table 1 is unverified."
+  ],
+  "sources": [
+    {
+      "id": "WUELLER2026",
+      "type": "peer_reviewed_paper",
+      "authors": "Wueller, L., Berger, L. M., Christopher, H., Sugimoto, K., Thaker, A. D., Carton, L., Jo, W., Lee, S., Pedrelli, R., Sanchez, P., Kring, D. A.",
+      "year": 2026,
+      "title": "Assessing Potential Landing Sites With Favorable Illumination and Accessible, Potentially Volatile-Rich Permanently Shadowed Regions Within Artemis Candidate Landing Regions",
+      "venue": "Journal of Geophysical Research: Planets, 131(3), e2025JE009434",
+      "url": "https://doi.org/10.1029/2025JE009434",
+      "provenance": "independent_researchers"
+    },
+    {
+      "id": "WUELLER2026_DATA",
+      "type": "dataset",
+      "authors": "Wueller et al.",
+      "year": 2026,
+      "title": "Complementary Data for Wueller et al. (2026)",
+      "url": "https://doi.org/10.5281/zenodo.17084058",
+      "license": "CC BY 4.0",
+      "contents": "GIS shapefiles and rasters (no tabular CSV of visibility durations)",
+      "provenance": "independent_researchers",
+      "zenodo_published": "2025-09-15"
+    },
+    {
+      "id": "NASA_2024_UPDATE",
+      "type": "nasa_announcement",
+      "authors": "NASA",
+      "year": 2024,
+      "title": "NASA Provides Update on Artemis III Moon Landing Regions",
+      "url": "https://www.nasa.gov/news-release/nasa-provides-update-on-artemis-iii-moon-landing-regions/",
+      "provenance": "nasa_mission_information"
+    }
+  ],
+  "regions": [
+    {
+      "region_id": "SP",
+      "region_name": "Slater Plain",
+      "nasa_artemis_iii_candidate_region": true,
+      "nasa_source_id": "NASA_2024_UPDATE",
+      "terrain_statistics": {
+        "area_meeting_hls_requirements_km2": 77.0,
+        "fraction_of_region_percent": 19.3,
+        "representative_candidate_sites": 11,
+        "criterion": "slope < 8 deg and > 100 m from steeper slopes",
+        "source_id": "WUELLER2026",
+        "table": "Table 1"
+      },
+      "sites": [
+        {
+          "site_id": "SP11",
+          "latitude_deg": -86.95,
+          "longitude_deg": 126.675,
+          "coordinate_source": {
+            "source_id": "WUELLER2026",
+            "table": "Table A1"
+          },
+          "coordinate_type": "specific_candidate_landing_site_point (manually selected representative, NOT region boundary)",
+          "crs": null,
+          "longitude_convention": null,
+          "site_level_terrain_statistics": null,
+          "accessible_psr_below_110K_within_2km": true,
+          "site_notes": [
+            "Listed among SP sites with accessible PSRs <110 K (PSR accessibility table; table number not confirmed).",
+            "Lies within a landing area suggested by Samaddar et al. (2025) as free of large boulders in Mini-RF radar data, per Wueller et al. 2026."
+          ]
+        }
+      ],
+      "scientific_advantages": [
+        "Highest fractional area meeting HLS slope criteria among the 16 regions studied (Wueller 2026, Section 3)."
+      ],
+      "scientific_limitations": [
+        "Slope criteria do not establish landing safety.",
+        "Region-level figures only; not site-level terrain statistics."
+      ]
+    },
+    {
+      "region_id": "NR2",
+      "region_name": "Nobile Rim 2",
+      "nasa_artemis_iii_candidate_region": true,
+      "nasa_source_id": "NASA_2024_UPDATE",
+      "terrain_statistics": {
+        "area_meeting_hls_requirements_km2": 56.9,
+        "fraction_of_region_percent": 14.0,
+        "representative_candidate_sites": 9,
+        "criterion": "slope < 8 deg and > 100 m from steeper slopes",
+        "source_id": "WUELLER2026",
+        "table": "Table 1"
+      },
+      "sites": [
+        {
+          "site_id": "NR2_K2023",
+          "latitude_deg": -84.074,
+          "longitude_deg": 59.197,
+          "coordinate_source": {
+            "source_id": "WUELLER2026",
+            "table": "Table A1"
+          },
+          "coordinate_type": "specific_candidate_landing_site_point (manually selected representative, NOT region boundary)",
+          "crs": null,
+          "longitude_convention": null,
+          "site_level_terrain_statistics": null,
+          "accessible_psr_below_110K_within_2km": null,
+          "site_notes": [
+            "Site ID suffix meaning (K2023) not confirmed from retrieved text."
+          ]
+        }
+      ],
+      "scientific_advantages": [
+        "Second-highest fractional suitable area after Slater Plain (Wueller 2026, Section 3)."
+      ],
+      "scientific_limitations": [
+        "Located on the northern rim of Nobile crater where it intersects an unnamed ~55 km crater (Wueller 2026).",
+        "Slope criteria do not establish landing safety."
+      ]
+    },
+    {
+      "region_id": "HW",
+      "region_name": "Haworth",
+      "nasa_artemis_iii_candidate_region": true,
+      "nasa_source_id": "NASA_2024_UPDATE",
+      "terrain_statistics": {
+        "area_meeting_hls_requirements_km2": 77.3,
+        "fraction_of_region_percent": 8.7,
+        "representative_candidate_sites": 11,
+        "criterion": "slope < 8 deg and > 100 m from steeper slopes",
+        "source_id": "WUELLER2026",
+        "table": "Table 1"
+      },
+      "sites": [
+        {
+          "site_id": "HW10",
+          "latitude_deg": -86.527,
+          "longitude_deg": -14.876,
+          "coordinate_source": {
+            "source_id": "WUELLER2026",
+            "table": "Table A1"
+          },
+          "coordinate_type": "specific_candidate_landing_site_point (manually selected representative, NOT region boundary)",
+          "crs": null,
+          "longitude_convention": null,
+          "site_level_terrain_statistics": null,
+          "accessible_psr_below_110K_within_2km": true,
+          "site_notes": [
+            "Paper states PSRs <110 K are accessible from HW10 (Section 7).",
+            "Paper states HW04 and HW10 offer Sun-and-Earth visibility exceeding 25 days (year not retrieved)."
+          ]
+        }
+      ],
+      "scientific_advantages": [
+        "Candidate sites with long Sun-and-Earth visibility in at least one modeled midsummer (HW04, HW10)."
+      ],
+      "scientific_limitations": [
+        "Lowest suitable fraction of the three regions (8.7%).",
+        "Slope criteria do not establish landing safety."
+      ]
+    }
+  ]
+}
