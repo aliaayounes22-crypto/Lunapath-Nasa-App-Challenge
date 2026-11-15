@@ -1,0 +1,5 @@
+# Allow all search engine crawlers
+User-agent: *
+Allow: /
+
+Sitemap: https://aliaayounes22-crypto.github.io/Lunapath-Nasa-App-Challenge/sitemap.xml
